@@ -1,0 +1,17 @@
+{
+  "name": "itcss-bootstrap",
+  "version": "0.0.1",
+  "description": "ITCSS + Bootstrap template",
+  "private": true,
+  "scripts": {
+    "start": "node-sass style.scss dist/style.css -w --source-map true",
+    "build": "node-sass style.scss dist/style.css --output-style compressed"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  },
+  "license": "MIT"
+}
